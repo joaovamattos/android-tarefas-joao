@@ -1,11 +1,11 @@
-package ads.vilhena.ifro.edu.br.tarafasjoao.DAO;
+package ads.vilhena.ifro.edu.br.tarefasjoao.DAO;
 
 import android.arch.persistence.room.Database;
 import android.arch.persistence.room.Room;
 import android.arch.persistence.room.RoomDatabase;
 import android.content.Context;
 
-import ads.vilhena.ifro.edu.br.tarafasjoao.model.Tarefa;
+import ads.vilhena.ifro.edu.br.tarefasjoao.model.Tarefa;
 
 @Database(entities = {Tarefa.class}, version = 1)
 public abstract class AppDatabase extends RoomDatabase {

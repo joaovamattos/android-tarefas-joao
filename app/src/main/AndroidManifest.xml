@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ads.vilhena.ifro.edu.br.tarafasjoao">
+    package="ads.vilhena.ifro.edu.br.tarefasjoao">
 
     <application
         android:allowBackup="true"
@@ -9,12 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AlterarTarefaActivity"
-            android:parentActivityName=".ListarTarefasActivity"></activity>
+        <activity android:name="ads.vilhena.ifro.edu.br.tarefasjoao.AlterarTarefaActivity"
+            android:parentActivityName="ads.vilhena.ifro.edu.br.tarefasjoao.ListarTarefasActivity"></activity>
         <activity
-            android:name=".CadastrarTarefaAcivity"
-            android:parentActivityName=".ListarTarefasActivity" />
-        <activity android:name=".ListarTarefasActivity">
+            android:name="ads.vilhena.ifro.edu.br.tarefasjoao.CadastrarTarefaAcivity"
+            android:parentActivityName="ads.vilhena.ifro.edu.br.tarefasjoao.ListarTarefasActivity" />
+        <activity android:name="ads.vilhena.ifro.edu.br.tarefasjoao.ListarTarefasActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

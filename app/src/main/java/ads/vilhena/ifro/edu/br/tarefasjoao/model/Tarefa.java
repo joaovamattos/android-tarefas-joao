@@ -1,4 +1,4 @@
-package ads.vilhena.ifro.edu.br.tarafasjoao.model;
+package ads.vilhena.ifro.edu.br.tarefasjoao.model;
 
 import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.PrimaryKey;

@@ -1,4 +1,4 @@
-package ads.vilhena.ifro.edu.br.tarafasjoao;
+package ads.vilhena.ifro.edu.br.tarefasjoao;
 
 import org.junit.Test;
 

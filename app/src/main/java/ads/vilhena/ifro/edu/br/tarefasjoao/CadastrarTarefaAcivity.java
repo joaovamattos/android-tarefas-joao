@@ -1,4 +1,4 @@
-package ads.vilhena.ifro.edu.br.tarafasjoao;
+package ads.vilhena.ifro.edu.br.tarefasjoao;
 
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
@@ -12,12 +12,11 @@ import android.widget.DatePicker;
 import android.widget.TextView;
 import android.widget.TimePicker;
 
-import java.sql.Time;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
-import ads.vilhena.ifro.edu.br.tarafasjoao.DAO.AppDatabase;
-import ads.vilhena.ifro.edu.br.tarafasjoao.model.Tarefa;
+import ads.vilhena.ifro.edu.br.tarefasjoao.DAO.AppDatabase;
+import ads.vilhena.ifro.edu.br.tarefasjoao.model.Tarefa;
 
 public class CadastrarTarefaAcivity extends AppCompatActivity {
 

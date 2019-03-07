@@ -1,10 +1,9 @@
-package ads.vilhena.ifro.edu.br.tarafasjoao;
+package ads.vilhena.ifro.edu.br.tarefasjoao;
 
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
 import android.content.Intent;
 import android.support.design.widget.TextInputEditText;
-import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -17,8 +16,8 @@ import android.widget.TimePicker;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
-import ads.vilhena.ifro.edu.br.tarafasjoao.DAO.AppDatabase;
-import ads.vilhena.ifro.edu.br.tarafasjoao.model.Tarefa;
+import ads.vilhena.ifro.edu.br.tarefasjoao.DAO.AppDatabase;
+import ads.vilhena.ifro.edu.br.tarefasjoao.model.Tarefa;
 
 public class AlterarTarefaActivity extends AppCompatActivity {
 

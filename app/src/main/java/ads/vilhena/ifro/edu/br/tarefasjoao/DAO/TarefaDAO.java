@@ -1,4 +1,4 @@
-package ads.vilhena.ifro.edu.br.tarafasjoao.DAO;
+package ads.vilhena.ifro.edu.br.tarefasjoao.DAO;
 
 import android.arch.persistence.room.Dao;
 import android.arch.persistence.room.Delete;
@@ -7,9 +7,8 @@ import android.arch.persistence.room.Query;
 import android.arch.persistence.room.Update;
 
 import java.util.List;
-import java.util.TreeMap;
 
-import ads.vilhena.ifro.edu.br.tarafasjoao.model.Tarefa;
+import ads.vilhena.ifro.edu.br.tarefasjoao.model.Tarefa;
 
 @Dao
 public interface TarefaDAO {

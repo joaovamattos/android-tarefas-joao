@@ -1,4 +1,4 @@
-package ads.vilhena.ifro.edu.br.tarafasjoao;
+package ads.vilhena.ifro.edu.br.tarefasjoao;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

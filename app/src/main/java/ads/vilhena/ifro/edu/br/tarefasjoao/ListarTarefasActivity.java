@@ -1,4 +1,4 @@
-package ads.vilhena.ifro.edu.br.tarafasjoao;
+package ads.vilhena.ifro.edu.br.tarefasjoao;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -12,15 +12,13 @@ import android.view.ContextMenu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import java.util.ArrayList;
 import java.util.List;
 
-import ads.vilhena.ifro.edu.br.tarafasjoao.DAO.AppDatabase;
-import ads.vilhena.ifro.edu.br.tarafasjoao.adapter.ListarTarefasAdapter;
-import ads.vilhena.ifro.edu.br.tarafasjoao.model.Tarefa;
+import ads.vilhena.ifro.edu.br.tarefasjoao.DAO.AppDatabase;
+import ads.vilhena.ifro.edu.br.tarefasjoao.adapter.ListarTarefasAdapter;
+import ads.vilhena.ifro.edu.br.tarefasjoao.model.Tarefa;
 
 public class ListarTarefasActivity extends AppCompatActivity {
 
@@ -50,6 +48,7 @@ public class ListarTarefasActivity extends AppCompatActivity {
             @Override
             public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
                 MenuItem deletar = menu.add("Deletar");
+                MenuItem compartilhar = menu.add("Compartilhar");
 
                 AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo) menuInfo;
                 final Tarefa tarefaSelecionada = (Tarefa) lsvListarTarefas.getAdapter().getItem(info.position);

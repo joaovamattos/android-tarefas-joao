@@ -1,4 +1,4 @@
-package ads.vilhena.ifro.edu.br.tarafasjoao.adapter;
+package ads.vilhena.ifro.edu.br.tarefasjoao.adapter;
 
 import android.app.Activity;
 import android.graphics.Color;
@@ -11,8 +11,8 @@ import android.widget.TextView;
 import java.text.SimpleDateFormat;
 import java.util.List;
 
-import ads.vilhena.ifro.edu.br.tarafasjoao.R;
-import ads.vilhena.ifro.edu.br.tarafasjoao.model.Tarefa;
+import ads.vilhena.ifro.edu.br.tarefasjoao.R;
+import ads.vilhena.ifro.edu.br.tarefasjoao.model.Tarefa;
 
 public class ListarTarefasAdapter extends BaseAdapter{
 
